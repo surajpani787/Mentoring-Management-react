@@ -1,0 +1,717 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.active {
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #30D5C8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav p {
+  font-size: 1.4rem;
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+
+nav ul li a:not(.active):hover {
+  color: black;
+  background-color: white;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+/* Sign in page code starts here */
+
+/* styles.css */
+.sign-in-form {
+  max-width: 300px;
+  margin: 12% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in-form h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+a {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Sign in page code ends here */
+
+
+/* Signup code starts here */
+
+/* styles.css */
+.sign-up-form {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-up-form h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Signup code ends here */
+
+
+/* Home section code starts here */
+
+/* HeroVideo.css */
+.hero-video {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+
+.Hero {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  background-color: #FFFFEB;
+}
+
+.Hero2 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  background-color: #86FFFF;
+}
+
+.Hero3 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  background-color: #00FDF0;
+}
+
+.Hero4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  background-color: #FFFFC1;
+}
+
+.Hero .img img {
+  padding-bottom: 20px;
+}
+
+.Hero2 .img img {
+  padding-bottom: 20px;
+}
+
+.Hero3 .img img {
+  padding-bottom: 20px;
+}
+
+.Hero4 .img img {
+  padding-bottom: 20px;
+}
+
+.Hero .intro {
+  text-align: justify;
+}
+
+.Hero2 .intro {
+  text-align: justify;
+}
+
+.Hero3 .intro {
+  text-align: justify;
+}
+
+.Hero4 .intro {
+  text-align: justify;
+}
+
+/* Home section code ends here */
+
+/* About section code starts here */
+.About {
+  text-align: justify;
+  padding: 5rem 8rem;
+}
+
+.About h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.About-info {
+  padding-bottom: 20px;
+}
+
+.About-info p {
+  padding-bottom: 20px;
+}
+
+/* About section code ends here */
+
+footer {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  background-color: #30D5C8;
+  padding: 10px 20px;
+}
+
+footer .copy-right {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+footer .quote {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.f-icons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 30px;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+/* Footer section starts here */
+
+/* Footer section endss here */
+
+
+/* Admin dashboard code starts here */
+.heading {
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.dashboard {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 12%;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+.icon {
+  font-size: 10rem;
+}
+
+
+/* Addmentor.css */
+
+.Addmentor-container {
+  margin: 12% auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.mentor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-container {
+  flex: 0 0 48%;
+  /* Adjust the width as needed, leaving space for margins */
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Addmentor {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Mentor details css */
+
+.mentorlist {
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Add this CSS to your component or a separate CSS file */
+
+/* Base styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.action{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 12px;
+  margin: 5px;
+  font-size: 12px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.mentorlist{
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Admin dashboard code starts here */
+
+
+/* Mentor dash code starts here */
+
+.form {
+  max-width: 600px;
+  margin:  auto;
+  margin-top: 10%;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .heading {
+    margin-top: 20%;
+  }
+
+  .heading{
+    margin-top: 40%;
+  }
+
+  .Addmentor-container {
+    margin: 20% 20px;
+  }
+
+  form{
+    flex-direction: column;
+  }
+  
+
+}
+
+
+/* Home section code  endss here */
+
+@media(max-width: 796px) {
+  nav ul {
+    display: none;
+  }
+
+  .nav-links-isMenuOpen {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: #30D5C8;
+  }
+
+  nav ul li {
+    padding: 18px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 30px;
+  }
+
+  .sign-in-form {
+    margin: 40% auto;
+  }
+
+  .sign-up-form {
+    margin: 20% auto;
+  }
+
+  .Hero {
+    flex-direction: column;
+  }
+
+  .Hero2 {
+    flex-direction: column;
+  }
+
+  .Hero3 {
+    flex-direction: column;
+  }
+
+  .Hero4 {
+    flex-direction: column;
+  }
+
+  .Hero .img img {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .Hero2 .img img {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .Hero3 .img img {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .Hero4 .img img {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .Hero .intro {
+    padding-bottom: 20px;
+  }
+
+  .Hero2 .intro {
+    padding-bottom: 20px;
+  }
+
+  .Hero3 .intro {
+    padding-bottom: 20px;
+  }
+
+  .Hero4 .intro {
+    padding-bottom: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .heading {
+    padding-top: 5%;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  th, td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tbody tr {
+    margin-bottom: 20px;
+  }
+
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+@media (max-width:1069px) {
+  .Hero {
+    flex-direction: column;
+  }
+
+  .Hero2 {
+    flex-direction: column;
+  }
+
+  .Hero3 {
+    flex-direction: column;
+  }
+
+  .Hero4 {
+    flex-direction: column;
+  }
+
+  .Hero .img img {
+    width: 100%;
+  }
+
+  .Hero2 .img img {
+    width: 100%;
+  }
+
+  .Hero3.img img {
+    width: 100%;
+  }
+
+  .Hero4.img img {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 20%;
+  }
+
+  .heading {
+    margin-top: 10%;
+  }
+
+}
